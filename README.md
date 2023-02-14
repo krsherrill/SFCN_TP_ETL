@@ -22,3 +22,6 @@ As of the winter of 2023 Total Phosphorus lab analysis has been performed by the
 *inDB* – Path to the Periphyton Access database
 
 **Appends the transformed total phosphorus data (i.e. ETL)** to the Periphyton dataset **tbl_SoilChemistry_Dataset** via the 'to_sql' functionality for dataframes in the [sqlAlchemy-access 2.0.1](https://pypi.org/project/sqlalchemy-access/) package. Install via pip install sqlalchemy-access in your python environment.
+
+**Scrip Dependices**
+Python 3.x, Panddas, and sqlalchemy-access
