@@ -62,7 +62,7 @@ phosphorusTable = "tbl_Lab_Data_TotalPhosphorus"
 labName = "Florida International University SERC"
 
 #Lab Total Phosphorus SOP
-labSOPName = "FIU BCALSERL TP methods 2019"
+labSOPName = "FIU BCAL SERL TP methods 2019"
 
 #Minimum Detection Level
 mdlValue = "0.0003% P by dry weight"
@@ -168,8 +168,6 @@ def main():
         root.destroy()  # Destory Root Message Box
         # Exit tkniter routine
         root.mainloop()
-
-
 
         #####################
         #Process the Raw Data defining the Dataset to be processed
